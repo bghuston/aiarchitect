@@ -1,0 +1,8 @@
+id: database.entity
+version: "0.1.0"
+description: Standard entity fields with audit and soft deletion declarations.
+tags: [database, entity, audit, persistence]
+schema: schema.json
+templates:
+  - source: templates/entity.ts.j2
+    destination: "{{ name | lower }}.entity.ts"

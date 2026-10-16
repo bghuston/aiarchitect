@@ -1,0 +1,22 @@
+id: project.module
+version: "0.1.0"
+description: Module layers with static TypeScript configuration and dependency metadata.
+tags: [project, module, architecture, typescript]
+schema: schema.json
+templates:
+  - source: templates/index.ts.j2
+    destination: "{{ name }}/index.ts"
+  - source: templates/tsconfig.json.j2
+    destination: "{{ name }}/tsconfig.json"
+  - source: templates/package.json.j2
+    destination: "{{ name }}/package.json"
+  - source: templates/domain/README.md.j2
+    destination: "{{ name }}/domain/README.md"
+  - source: templates/application/README.md.j2
+    destination: "{{ name }}/application/README.md"
+  - source: templates/infrastructure/README.md.j2
+    destination: "{{ name }}/infrastructure/README.md"
+  - source: templates/presentation/README.md.j2
+    destination: "{{ name }}/presentation/README.md"
+  - source: templates/tests/README.md.j2
+    destination: "{{ name }}/tests/README.md"

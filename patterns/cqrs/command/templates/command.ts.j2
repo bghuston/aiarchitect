@@ -1,0 +1,35 @@
+// Inspection-only structure for the {{ aggregate }} aggregate.
+export interface {{ name }}Command {
+{% for field in input %}
+  {{ field.name }}{{ '' if field.required | default(false) else '?' }}: {{ 'Date' if field.type == 'datetime' else field.type }};
+{% endfor %}
+}
+{% if transactional %}
+// The adapter must define commit, rollback and transaction-scoped dependencies.
+export interface TransactionScope {
+  readonly context: unknown;
+}
+export interface UnitOfWork {
+  withinTransaction<T>(operation: (scope: TransactionScope) => Promise<T>): Promise<T>;
+}
+{% endif %}
+export class {{ name }}Handler {
+{% if transactional %}
+  constructor(private readonly unitOfWork: UnitOfWork) {}
+{% endif %}
+  async execute(command: {{ name }}Command): Promise<void> {
+{% if transactional %}
+    return this.unitOfWork.withinTransaction(async (scope) => {
+      await this.applyBusinessRules(command, scope);
+    });
+{% else %}
+    await this.applyBusinessRules(command);
+{% endif %}
+  }
+
+  private async applyBusinessRules(command: {{ name }}Command{% if transactional %}, scope: TransactionScope{% endif %}): Promise<void> {
+    // TODO: domain rules and persistence{% if transactional %} using scope.context{% endif %}.
+    // The template deliberately does not invent {{ aggregate }} behaviour.
+    throw new Error("Business logic extension point is not implemented");
+  }
+}

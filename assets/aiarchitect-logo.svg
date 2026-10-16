@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">aiarchitect logo</title>
+  <desc id="desc">Three interlocking architectural planes form a geometric A in blue and teal.</desc>
+  <defs>
+    <linearGradient id="roof" x1="22" y1="17" x2="106" y2="61" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="base" x1="20" y1="63" x2="87" y2="115" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3CF"/>
+      <stop offset="1" stop-color="#0D9488"/>
+    </linearGradient>
+    <linearGradient id="side" x1="103" y1="51" x2="77" y2="111" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#0891B2"/>
+    </linearGradient>
+  </defs>
+  <!-- Separated planes suggest reusable components and an architectural roof. -->
+  <path d="M18 40 60 15Q64 12 68 15L110 40 91 51 64 35 37 51Z" fill="url(#roof)"/>
+  <path d="M18 67 37 56 64 72 83 61 83 83 64 94 37 78 37 89 64 105 64 119 18 92Z" fill="url(#base)"/>
+  <path d="M91 57 110 46 110 92 64 119 64 97 91 81Z" fill="url(#side)"/>
+</svg>

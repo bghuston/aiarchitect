@@ -1,0 +1,14 @@
+{# Inspection-only example. No runtime UUID or persistence implementation. #}
+export interface {{ name }} {
+  id: string; // UUID supplied by the persistence boundary
+{% for field in fields %}
+  {{ field.name }}{{ '' if field.required | default(false) else '?' }}: {{ 'Date' if field.type == 'datetime' else field.type }};
+{% endfor %}
+{% if auditable %}
+  createdAt: Date;
+  updatedAt: Date;
+{% endif %}
+{% if softDelete %}
+  deletedAt: Date | null;
+{% endif %}
+}

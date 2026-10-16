@@ -1,0 +1,14 @@
+# Descriptive metadata only. Do not install, build or execute this PoC.
+[project]
+name = "aiarchitect"
+version = "0.0.1"
+description = "Inspection-only architectural template proof of concept"
+requires-python = ">=3.11"
+readme = "README.md"
+license = { file = "LICENSE" }
+dependencies = ["Jinja2>=3.1,<4", "jsonschema>=4,<5", "PyYAML>=6,<7"]
+
+[project.optional-dependencies]
+illustrative-tests = ["pytest>=8,<9"]
+
+# Deliberately no CLI entry point or automation workflow.

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="920" viewBox="0 0 1600 920">
+<rect x="0" y="0" width="1600" height="920" rx="0" fill="#F7FAFF"/>
+<rect x="54" y="50" width="10" height="88" rx="0" fill="#2463EB"/>
+<text x="86" y="91" font-family="DejaVu Sans, sans-serif" font-size="48" font-weight="700" fill="#122544">aiarchitect</text>
+<text x="88" y="128" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="400" fill="#4D6482">Architectural knowledge, expressed once.</text>
+<text x="1170" y="82" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#2463EB">PROOF OF CONCEPT</text>
+<text x="1170" y="113" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#4D6482">Inspection only • Unexecuted</text>
+<text x="58" y="194" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" fill="#4D6482">ONE REQUEST</text>
+<rect x="54" y="214" width="1492" height="78" rx="0" fill="#E9F0FD"/>
+<text x="84" y="261" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#122544">“Create a Customer entity with audit fields and soft deletion.”</text>
+<text x="58" y="345" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="700" fill="#4D6482">01  CONVENTIONAL GENERATION</text>
+<text x="58" y="532" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="700" fill="#087D7B">02  TEMPLATE-DRIVEN PROPOSAL</text>
+<rect x="54" y="367" width="462" height="126" rx="0" fill="#FFFFFF"/>
+<rect x="54" y="367" width="5" height="126" rx="0" fill="#8798AF"/>
+<text x="79" y="411" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="700" fill="#122544">Inspect context</text>
+<text x="79" y="450" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400" fill="#4D6482">Read similar implementations</text>
+<path d="M526 430 H557 l-10 -8 M557 430 l-10 8" fill="none" stroke="#8798AF" stroke-width="3"/>
+<rect x="569" y="367" width="462" height="126" rx="0" fill="#FFFFFF"/>
+<rect x="569" y="367" width="5" height="126" rx="0" fill="#8798AF"/>
+<text x="594" y="411" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="700" fill="#122544">Produce boilerplate</text>
+<text x="594" y="450" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400" fill="#4D6482">Recreate established structure</text>
+<path d="M1041 430 H1072 l-10 -8 M1072 430 l-10 8" fill="none" stroke="#8798AF" stroke-width="3"/>
+<rect x="1084" y="367" width="462" height="126" rx="0" fill="#FFFFFF"/>
+<rect x="1084" y="367" width="5" height="126" rx="0" fill="#8798AF"/>
+<text x="1109" y="411" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="700" fill="#122544">Review and correct</text>
+<text x="1109" y="450" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400" fill="#4D6482">Resolve convention drift</text>
+<rect x="54" y="555" width="462" height="126" rx="0" fill="#E4F4F2"/>
+<rect x="54" y="555" width="5" height="126" rx="0" fill="#0A9992"/>
+<text x="79" y="599" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="700" fill="#122544">Discover pattern</text>
+<text x="79" y="638" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400" fill="#4D6482">Inspect metadata and schema</text>
+<path d="M526 618 H557 l-10 -8 M557 618 l-10 8" fill="none" stroke="#0A9992" stroke-width="3"/>
+<rect x="569" y="555" width="462" height="126" rx="0" fill="#E4F4F2"/>
+<rect x="569" y="555" width="5" height="126" rx="0" fill="#0A9992"/>
+<text x="594" y="599" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="700" fill="#122544">Supply parameters</text>
+<text x="594" y="638" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400" fill="#4D6482">Name, fields, audit, deletion</text>
+<path d="M1041 618 H1072 l-10 -8 M1072 618 l-10 8" fill="none" stroke="#0A9992" stroke-width="3"/>
+<rect x="1084" y="555" width="462" height="126" rx="0" fill="#E4F4F2"/>
+<rect x="1084" y="555" width="5" height="126" rx="0" fill="#0A9992"/>
+<text x="1109" y="599" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="700" fill="#122544">Render a proposal</text>
+<text x="1109" y="638" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400" fill="#4D6482">Deterministic text; no writes</text>
+<rect x="54" y="727" width="1492" height="110" rx="0" fill="#122544"/>
+<text x="82" y="767" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" fill="#FFFFFF">AI: pattern fit + domain decisions + novel logic</text>
+<text x="82" y="805" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="400" fill="#C7DAEF">Templates: repeatable structure     •     Humans: review fit, parameters and proposed code</text>
+<text x="56" y="879" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="400" fill="#4D6482">Intended benefits: less repeated generation and consistent conventions. Token savings are unmeasured.</text>
+</svg>

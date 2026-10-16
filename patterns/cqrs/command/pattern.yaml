@@ -1,0 +1,8 @@
+id: cqrs.command
+version: "0.1.0"
+description: Command and handler with an explicit transaction boundary and business extension point.
+tags: [cqrs, command, handler, transaction]
+schema: schema.json
+templates:
+  - source: templates/command.ts.j2
+    destination: "{{ name | lower }}.command.ts"

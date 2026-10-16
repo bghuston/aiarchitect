@@ -1,0 +1,11 @@
+{
+  "name": "RegisterCustomer",
+  "aggregate": "Customer",
+  "input": [
+    {
+      "name": "email",
+      "type": "string"
+    }
+  ],
+  "transactional": true
+}

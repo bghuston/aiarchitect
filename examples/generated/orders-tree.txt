@@ -1,0 +1,13 @@
+Manually authored proposal; no module application is implemented.
+orders/
+├── domain/README.md
+├── application/README.md
+├── infrastructure/README.md
+├── presentation/README.md
+├── tests/README.md
+├── index.ts
+├── tsconfig.json
+└── package.json
+
+The README files illustrate layer responsibilities and retain empty layers.
+The manifest is static dependency metadata, not an installation recommendation.
